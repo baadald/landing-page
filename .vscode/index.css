@@ -1,0 +1,41 @@
+body{
+  padding-bottom: 1000px;
+  background-color: yellow;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.header {
+  text-align: center;
+  background-color: blue;
+  padding-top: 25px;
+  color: red;
+  padding: 1rem;
+}
+
+#hero{
+  background-image: url('./images/landscape.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  justify-content: center;
+  
+}
+.bg-translucent{
+  background-color: black;
+  padding: 1rem;
+}
+sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
